@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetMapper</string>
+    <string name="tagline">Map, Scan, and Master your network.</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_grant">Grant permission</string>
+
+    <string name="perm_title">Location permission needed</string>
+    <string name="perm_body">Android requires location access to read nearby Wi-Fi networks and cellular signal. NetMapper never uploads your location.</string>
+
+    <string name="dash_connected_to">Connected to %1$s</string>
+    <string name="dash_wifi_connected">Wi-Fi connected</string>
+    <string name="dash_not_connected">Not connected to Wi-Fi</string>
+    <string name="dash_not_connected_hint">Connect to a Wi-Fi network to unlock all tools.</string>
+    <string name="dash_signal_ip">%1$d dBm · %2$s</string>
+
+    <string name="section_tools">Core tools</string>
+    <string name="section_more">More tools</string>
+
+    <string name="tool_heatmap">WiFi Heatmap</string>
+    <string name="tool_heatmap_sub">Map signal room by room</string>
+    <string name="tool_channels">Channel Analyzer</string>
+    <string name="tool_channels_sub">Find the best channel</string>
+    <string name="tool_scanner">Network Scanner</string>
+    <string name="tool_scanner_sub">See who is on your Wi-Fi</string>
+    <string name="tool_signal">Signal Finder</string>
+    <string name="tool_signal_sub">4G and 5G signal strength</string>
+    <string name="tool_wifi_info">Wi-Fi Details</string>
+    <string name="tool_wifi_info_sub">Link speed, IP, gateway, DNS</string>
+    <string name="tool_ports">Ping &amp; Port Scanner</string>
+    <string name="tool_ports_sub">Check devices and open ports</string>
+
+    <string name="heat_live">Live signal</string>
+    <string name="heat_live_none">No Wi-Fi signal</string>
+    <string name="heat_hint">Stand at a spot, then tap the matching cell to record its signal.</string>
+    <string name="heat_captured">Recorded: %1$d / 100</string>
+    <string name="heat_average">Average: %1$d dBm</string>
+    <string name="heat_cell_info">Row %1$d, column %2$d: %3$d dBm</string>
+    <string name="heat_no_signal">Connect to Wi-Fi to record a reading.</string>
+    <string name="legend_strong">Strong</string>
+    <string name="legend_medium">Medium</string>
+    <string name="legend_weak">Weak</string>
+    <string name="legend_empty">Empty</string>
+    <string name="heat_export">Export Heatmap</string>
+    <string name="heat_export_title">NetMapper Heatmap (dBm)</string>
+    <string name="heat_export_chooser">Share heatmap</string>
+    <string name="heat_export_empty">Record at least one cell first.</string>
+
+    <string name="ch_scanning">Scanning nearby networks…</string>
+    <string name="ch_empty">No networks found. Turn on Wi-Fi and Location, then scan again.</string>
+    <string name="ch_chart_title">Signal strength</string>
+    <string name="ch_short">CH %1$d</string>
+    <string name="ch_best">Least crowded 2.4 GHz channel: %1$d</string>
+    <string name="ch_list_title">Nearby networks (%1$d)</string>
+    <string name="ch_hidden">(Hidden network)</string>
+    <string name="ch_row_meta">%1$s · %2$s</string>
+    <string name="ch_channel_label">Channel %1$d</string>
+    <string name="ch_dbm">%1$d dBm</string>
+
+    <string name="scan_your_ip">Your IP address</string>
+    <string name="scan_subnet">Scans %1$s.1 to %1$s.254</string>
+    <string name="scan_start">Scan Network</string>
+    <string name="scan_no_wifi">Connect to a Wi-Fi network to scan.</string>
+    <string name="scan_progress">Checked %1$d of 254</string>
+    <string name="scan_found">Devices found: %1$d</string>
+    <string name="scan_this_device">This device</string>
+    <string name="scan_router">Router</string>
+    <string name="scan_latency">%1$d ms</string>
+    <string name="scan_empty_done">No other devices responded.</string>
+    <string name="scan_tap_hint">Tap a device to scan its ports.</string>
+    <string name="scan_idle_hint">Discover every device connected to your network.</string>
+
+    <string name="sig_excellent">Excellent</string>
+    <string name="sig_good">Good</string>
+    <string name="sig_fair">Fair</string>
+    <string name="sig_poor">Poor</string>
+    <string name="sig_unit">dBm</string>
+    <string name="sig_none">No cellular signal found</string>
+    <string name="sig_none_hint">Insert a SIM, enable mobile network and grant location permission.</string>
+    <string name="sig_type">Network type</string>
+    <string name="sig_carrier">Carrier</string>
+    <string name="sig_bars">Signal bars</string>
+    <string name="sig_history">Recent readings</string>
+    <string name="sig_scale_hint">Around -80 dBm is excellent, below -110 dBm is poor.</string>
+
+    <string name="wi_ssid">Network name</string>
+    <string name="wi_bssid">BSSID</string>
+    <string name="wi_signal">Signal</string>
+    <string name="wi_speed">Link speed</string>
+    <string name="wi_freq">Frequency</string>
+    <string name="wi_channel">Channel</string>
+    <string name="wi_ip">IP address</string>
+    <string name="wi_gateway">Gateway</string>
+    <string name="wi_mask">Subnet mask</string>
+    <string name="wi_dns">DNS</string>
+    <string name="wi_mbps">%1$d Mbps</string>
+    <string name="wi_mhz">%1$d MHz (%2$s)</string>
+    <string name="wi_unknown">Unknown</string>
+
+    <string name="pt_target">Host or IP address</string>
+    <string name="pt_target_hint">192.168.1.1</string>
+    <string name="pt_ping">Ping</string>
+    <string name="pt_ports">Scan ports</string>
+    <string name="pt_note">Uses TCP probes, so it works without root.</string>
+    <string name="pt_ping_title">Ping results</string>
+    <string name="pt_reply">Reply %1$d: %2$d ms</string>
+    <string name="pt_timeout">Reply %1$d: timed out</string>
+    <string name="pt_summary">Min %1$d · Avg %2$d · Max %3$d ms · Loss %4$d%%</string>
+    <string name="pt_summary_fail">All requests timed out</string>
+    <string name="pt_open_title">Open ports</string>
+    <string name="pt_none_open">No common ports are open.</string>
+    <string name="pt_progress">Checked %1$d of %2$d ports</string>
+    <string name="pt_port_row">Port %1$d</string>
+    <string name="pt_enter_host">Enter a host first.</string>
+</resources>
